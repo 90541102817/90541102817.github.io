@@ -1,0 +1,28 @@
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: space-around;
+    flex-basis: auto;
+    background-color: blueviolet;
+
+    }
+    nav .navbar-nav li a{
+        color: azure;
+        font-size: 25px;
+        }
+    li{
+        margin-right: 5%;
+    }
+    img{
+        width: 70%;
+        margin-left: -80px;
+        display: flex;
+    }
+    h1{
+        text-align: center;
+        margin-left: -120px;
+    }
+    p{
+        justify-content:left;
+        margin-left: -15px;
+    }
