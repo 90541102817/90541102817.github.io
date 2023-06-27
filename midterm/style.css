@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+
+/* This code Resets any browser*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,7 +28,7 @@ time, mark, audio, video {
 body{
   background-color: #f4f4f8;
 }
-.jumbotron {
+.jumbotron { /* The main part of the page that contains the image with the title text*/
   min-height: 400px;
   background-image: url("./nature-1.png");
   background-size: cover;
@@ -42,7 +44,7 @@ span{
   color: whitesmoke;
   -webkit-text-stroke: 2px black;
 }
-.navbar-expand-lg{
+.navbar-expand-lg{ /* Targeting the main nav class and position at the center and bckground color gray*/
   position: absolute;
     justify-content: center;
     left: 30%;
@@ -54,11 +56,15 @@ nav .navbar-nav li a{
   color: black;
   
 }
+
+/* I am targeting the nav item before and after and giving it a transition effect*/
+
 nav ul li a,
 nav ul li a:after
 nav ul li a:before {
   transition: 5s;
 }
+/* When you hover over nav list , it should change to azure color*/
 nav ul li a:hover{
   color: azure;
 }
@@ -87,16 +93,21 @@ nav ul li a:hover{
 p{
   font-size: 25px;
 }
+
+/* Styling the list items for the Facts*/
 .list{
   margin-left: 30px;
   font-size: 20px;
 
 }
+
+/* Styling the legend title*/
 #leg{
   font-size: 40px;
   margin-top: 20px;
 }
-.form-check{
+/* Positioning the check box inline*/
+.form-check{  
   display: inline-block;
   margin: 10px;
 }
