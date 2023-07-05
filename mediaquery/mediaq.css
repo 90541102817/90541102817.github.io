@@ -1,0 +1,45 @@
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	font-family: poppins, Arial, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-align: center;
+    
+}
+
+#Art{
+    margin-top: 20px;
+    padding: auto;
+}
+#first{
+    margin-top: 20px;
+}
+#related{
+    background-color: aliceblue;
+    padding-top: 30px;
+    margin-top: 20px;
+    max-height: 400px;
+}
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+li{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aquamarine;
+    text-shadow: 0.5px whitesmoke;
+}
+footer{
+    background-color: aliceblue;
+}
