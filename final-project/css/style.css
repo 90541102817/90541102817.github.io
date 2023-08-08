@@ -185,5 +185,8 @@ time, mark, audio, video {
 
 .foot{
   color: aliceblue;
+  background-color: black;
   font-size: 20px;
+  margin: 20px;
+  padding: 20px;
 }
